@@ -20,7 +20,6 @@ function sumOfNumbers(arrayOfNumbers) {
     }
     return sumAll;
 }
-sumOfNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 assignment.sumOfNumbers = sumOfNumbers;
 
 /**
@@ -41,7 +40,6 @@ function countEvenNumbers(arrayOfNumbers) {
     }
     return count;
 }
-countEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 assignment.countEvenNumbers = countEvenNumbers;
 
 /**
@@ -59,9 +57,13 @@ assignment.countEvenNumbers = countEvenNumbers;
  * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
-    return arrayOfNumbers;
+    var fahrenheit = [];
+    for (var i = 0; i < arrayOfNumbers.length; i++) {
+        fahrenheit.push(Math.trunc((arrayOfNumbers[i] * 9 / 5) + 32));
+    }
+    return fahrenheit;
 }
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
