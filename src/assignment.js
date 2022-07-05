@@ -22,6 +22,18 @@ function sumOfNumbers(arrayOfNumbers) {
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
+
+// function sumOfNumbers(arrayOfNumbers){
+//     var sumAll = 0;
+//     for (let arr of arrayOfNumbers){
+//       sumAll += arr;
+//     }
+//       return sumAll;
+//   }
+  
+//   assignment.sumOfNumbers = sumOfNumbers;
+  
+
 /**
  * Challenge - 2
  * 
@@ -41,6 +53,19 @@ function countEvenNumbers(arrayOfNumbers) {
     return count;
 }
 assignment.countEvenNumbers = countEvenNumbers;
+
+
+// function countEvenNumbers(arrayOfNumbers) {
+//     var count = [];
+//     for (let i of arrayOfNumbers) {
+//       if (i % 2 == 0) {
+//         count.push(i)
+//       }
+//     }
+//       return count.length;
+//   }
+//   assignment.countEvenNumbers = countEvenNumbers;
+
 
 /**
  * Challenge - 3
@@ -63,7 +88,20 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     }
     return fahrenheit;
 }
-assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+//assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+
+
+// function celsiusToFahrenheit(arrayOfNumbers) {
+//     let fahrenheit = [];
+//      for(let celsius of arrayOfNumbers){
+//        celsius = celsius*9/5+32
+//        celsius = Math.trunc(celsius)
+//       fahrenheit.push(celsius)
+     
+//    }
+//       return fahrenheit;
+//    }
+// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
